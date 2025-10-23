@@ -1,0 +1,22 @@
+{
+  "name": "chat-backend",
+  "version": "1.0.0",
+  "description": "Simple realtime chat backend using Express and Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.19.1",
+    "mssql": "^12.0.0",
+    "multer": "^2.0.2",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^5.1.7"
+  }
+}
